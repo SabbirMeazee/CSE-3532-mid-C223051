@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    margin: 10px 0px;
+    display: flex;
+}
+.container{
+width: 1260px;
+}
+.head_left {
+    width: 30%;
+}
+.head_left img{
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+.head_right{
+    width: 70%;
+}
+.head_right ul{
+    display: flex;
+}
+li{
+    padding: 10px 15px;
+}
+li a{
+    font-size: 14px ;
+}
+.btn{
+    outline: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.btn:hover{
+    background-color: rgb(255, 51, 0);
+    transition: 0.6s;
+}
