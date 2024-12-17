@@ -4,50 +4,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Proteus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="head_left">
-                <img src="images/logo-big.png" alt="">
-            </div>
-            <div class="head_right">
-                <ul>
-                    <li><a href="#About_us">About us</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Use_Cases">Use Cases</a></li>
-                    <li><a href="#Pricing">Pricing</a></li>
-                    <li><a href="#Blog">Blog</a></li>
-                    <li><a href="#Dashboard">Blog</a></li>
-                    <button class="btn">Request a quote</button>
+    <main class="mx-10 sm:mx-28">
+        <section class="my-10">
+            <nav class="flex justify-between items-center">
+                <img class="w-32 lg:w-44 cursor-pointer" src="/images/logo-big.png" alt="">
+
+                <ul class="flex justify-between items-center gap-14 hidden lg:flex">
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Use cases</li>
+                    <li>Prices</li>
+                    <li>Blog</li>
+                    <button class="border-2 border-slate-700 rounded-xl px-4 py-4">Request a quota</button>
                 </ul>
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <!-- txt & img par -->
+            <div class="my-10 lg:flex items-center justify-between">
+                <div class="lg:w-2/4">
+                    <h1 class=" font-extrabold text-5xl w-96 lg:w-2/4">Navigating the digital landscape for success</h1>
+                    <p class="py-4 w-80 sm:w-96">Our digital marketing agency helps businesses grow and succeed online
+                        through a range of services including SEO, PPC, social media marketing, and content creation.
+                    </p>
+                    <button
+                        class="text-white text-xl bg-black rounded-xl px-28 py-4 hover:bg-lime-300 hover:text-black lg:px-16">Book
+                        a
+                        Consultatuion</button>
+                </div>
+                <div class="my-4 flex items-center justify-center lg:w-fit">
+                    <img class="" src="/images/cover.png" alt="">
+                </div>
             </div>
-        </header>
-        <div class="banner">
-            <div class="ban_left">
-                <h1>Navigating the digital landscape for success</h1>
-                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
-                    including SEO, PPC, social media marketing, and content creation.</p>
-                <button class="btn_ban">Book a consultation</button>
+            <!-- logo section -->
+            <div class="flex flex-row sm:flex flex-col">
+                <div class="flex flex-wrap justify-center gap-2 lg:flex justify-evenly items-center">
+                    <img class="cursor-pointer" src="/images/amazon.png" alt="">
+                    <img class="cursor-pointer" src="/images/dribble.png" alt="">
+                    <img class="cursor-pointer" src="/images/hubspot.png" alt="">
+                    <img class="cursor-pointer" src="/images/netflix.png" alt="">
+                    <img class="cursor-pointer" src="/images/notion.png" alt="">
+                    <img class="cursor-pointer" src="/images/zoom.png" alt="">
+                </div>
             </div>
-            <div class="ban_right">
-                <img src="images/cover.png" alt="">
+        </section>
+
+        <!-- case studies -->
+        <section class="py-10">
+            <div class="text-center flex flex-col gap-4 items-center lg:flex-row lg:gap-20">
+                <h1
+                    class="bg-lime-300 text-4xl font-bold w-fit text-center px-3 py-2 rounded-lg my-4 lg:text-4xl font-extrabold ">
+                    Case Studies</h1>
+                <p class="w-96 text-center sm:text-start">Explore Real-Life Examples of Our Proven Digital Marketing
+                    Success
+                    through Our Case Studies</p>
             </div>
-        </div>
-        <div class="logo">
-            <img src="images/amazon.png" alt="">
-            <img src="images/amazon.png" alt="">
-            <img src="images/amazon.png" alt="">
-            <img src="images/amazon.png" alt="">
-            <img src="images/amazon.png" alt="">
-        </div>
-    </div>
-    <script src="https://cdn.tailwindcss.com"></script>
+            <!-- card -->
+            <div
+                class="py-6 flex flex-col gap-4 items-center bg-white lg:flex-row gap-0 items-center justify-center rounded-3xl my-10 lg:bg-black">
+
+                <div class="bg-black text-white px-16 py-12 w-96 rounded-3xl sm:rounded-none border-r">
+                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in
+                        website traffic and a 25% increase in sales.</p>
+                    <div class="flex gap-4 text-xl items-center pt-4">
+                        <h1 class="text-lime-300 cursor-pointer">Learn More</h1>
+                        <img src="/images/Icon.png" alt="">
+                    </div>
+                </div>
+
+                <div class="bg-black  text-white px-16 py-12 w-96 rounded-3xl lg:rounded-none border-r">
+                    <p>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking
+                        for
+                        key keywords and a 200% increase in organic traffic.</p>
+                    <div class="flex gap-4 text-xl items-center pt-4">
+                        <h1 class="text-lime-300 cursor-pointer">Learn More</h1>
+                        <img src="/images/Icon.png" alt="">
+                    </div>
+                </div>
+
+                <div class="bg-black  text-white px-16 py-12 w-96 rounded-3xl lg:rounded-none ">
+                    <p>For a national retail chain, we created a social media marketing campaign that increased
+                        followers by
+                        25% and generated a 20% increase in online sales..</p>
+                    <div class="flex gap-4 text-xl items-center pt-4">
+                        <h1 class="text-lime-300 cursor-pointer">Learn More</h1>
+                        <img src="/images/Icon.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- working process section -->
+        <section>
+            <div class="text-center flex flex-col gap-4 items-center lg:flex-row lg:gap-20">
+                <h1
+                    class="bg-lime-300 text-4xl font-bold w-60 text-center px-3 py-2 rounded-lg my-4 lg:w-fit text-4xl font-extrabold">
+                    Our Working Process</h1>
+                <p class="w-96 text-center sm:text-start">Step-by-Step Guide to Achieving Your Business Goals</p>
+            </div>
+
+            <div class="py-10 flex flex-col gap-4 lg:gap-10">
+                <div
+                    class="border-2 border-b-8 border-black rounded-3xl flex flex-col gap-4 px-10 py-6 items-center lg:bg-lime-300">
+
+                    <div class="flex w-full items-center lg:border-b-2 border-black lg:py-4">
+                        <h1 class="mr-10 text-4xl font-bold">01</h1>
+                        <p class="text-xl">Consultation</p>
+                        <img class="w-8 ml-auto lg:hidden" src="/images/plus.png" alt="">
+                        <img class="hidden w-8 ml-auto lg:block" src="/images/minus.png" alt="">
+                    </div>
+
+                    <div class="hidden lg:block">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target
+                            audience, and current marketing efforts. This will allow us to understand your needs and
+                            tailor
+                            our services to best fit your requirements.</p>
+                    </div>
+
+
+                </div>
+
+                <div class="border-2 border-b-8 border-black rounded-3xl flex px-10 py-6 items-center">
+                    <h1 class="mr-10 text-4xl font-bold">02</h1>
+                    <p class="text-xl">Research and Strategy Development</p>
+                    <img class="w-8 ml-auto" src="/images/plus.png" alt="">
+                </div>
+
+                <div class="border-2 border-b-8 border-black rounded-3xl flex px-10 py-6 items-center">
+                    <h1 class="mr-10 text-4xl font-bold">03</h1>
+                    <p class="text-xl">Implementation</p>
+                    <img class="w-8 ml-auto" src="/images/plus.png" alt="">
+                </div>
+
+                <div class="border-2 border-b-8 border-black rounded-3xl flex px-10 py-6 items-center">
+                    <h1 class="mr-10 text-4xl font-bold">04</h1>
+                    <p class="text-xl">Monitoring and Optimization</p>
+                    <img class="w-8 ml-auto" src="/images/plus.png" alt="">
+                </div>
+
+                <div class="border-2 border-b-8 border-black rounded-3xl flex px-10 py-6 items-center lg:hidden">
+                    <h1 class="mr-10 text-4xl font-bold">05</h1>
+                    <p class="text-xl">Reporting and Communication</p>
+                    <img class="w-8 ml-auto" src="/images/plus.png" alt="">
+                </div>
+
+                <div class="border-2 border-b-8 border-black rounded-3xl flex px-10 py-6 items-center lg:hidden">
+                    <h1 class="mr-10 text-4xl font-bold">06</h1>
+                    <p class="text-xl">Continual Improvement</p>
+                    <img class="w-8 ml-auto" src="/images/plus.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-=============- footer section============>
+        <section
+            class="mt-10 bg-black py-10 text-white flex flex-col gap-16 rounded-none lg:mx-10 px-20 lg:rounded-t-3xl">
+
+            <section class="flex flex-col items-center lg:flex-row justify-between">
+                <img class="w-32 pb-10 lg:w-44 lg:pb-0" src="/images/logo-small.png" alt="">
+
+                <ul class="flex flex-col justify-evenly text-3xl items-center gap-4 w-full lg:flex-row lg:gap-0">
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Use cases</li>
+                    <li>Pricing</li>
+                    <li class="hidden">Blog</li>
+                </ul>
+                <div class="hidden lg:flex gap-6 pr-8">
+                    <img src="/images/social-linkedin.png" alt="">
+                    <img src="/images/social-fb.png" alt="">
+                    <img src="/images/social-twitter.png" alt="">
+                </div>
+            </section>
+
+            <div class="flex flex-col gap-8 lg:flex-row justify-between">
+                <div class="flex flex-col items-center gap-4 lg:items-start">
+                    <h1 class="text-2xl bg-lime-300 text-black px-2 rounded">Contact us</h1>
+                    <p>Email :Sabbirmeazeee69@gmail.com</p>
+                    <p>Phone : 01832805540</p>
+                    <p class="text-center lg:text-start">Address : 1234 Main St <br>
+                        Moonstone City, Stardust State 12345</p>
+                </div>
+
+                <div
+                    class="bg-slate-700 px-10 py-8 rounded-3xl flex flex-col gap-6 lg:flex-row items-center px-16 justify-center ">
+                    <input class="rounded-xl py-4 px-2 bg-slate-700 border-2 border-white lg:h-14 w-72" type="text"
+                        placeholder="Email" class="input input-bordered input-primary w-full max-w-xs" />
+                    <button
+                        class="border-2 text-xl hover:bg-black hover:text-white text-black bg-lime-300 rounded-xl px-4 py-4 lg:h-14 w-72">Subscribe
+                        to
+                        News</button>
+                </div>
+                <!-- logo -->
+                <div class="flex justify-center gap-6 mb-6 lg:hidden">
+                    <img src="/images/social-linkedin.png" alt="">
+                    <img src="/images/social-fb.png" alt="">
+                    <img src="/images/social-twitter.png" alt="">
+                </div>
+            </div>
+            <div class="border-b-2"></div>
+            <div class="text-center lg:flex gap-6 justify-center">
+                <p class="mb-2">© 2024 Positivus. All Rights Reserved.</p>
+                <p>Privacy Policy</p>
+            </div>
+
+        </section>
+        <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>

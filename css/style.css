@@ -1,7 +1,8 @@
-*{
-    margin: 0 auto;
-    padding: 0;
+* {
+    font-family: "Space Grotesk", sans-serif;
 }
+
+/* 
 h1{
     font-size: 24px;
     font-weight: 600;
@@ -49,8 +50,8 @@ li a{
 }
 
 
-/* ================banner============= */
-.banner{
+================banner============= */
+/* .banner{
     display: flex;
     margin: 30px 0px;
 }
@@ -77,4 +78,4 @@ li a{
 }
 .logo img{
     padding: 0px 15px;
-}
+} */
